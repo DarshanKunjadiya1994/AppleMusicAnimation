@@ -27,7 +27,7 @@ _animatedMenuScene.backgroundColor = [UIColor blueColor];
         
 **Credit**
 
-This component use AnimatedMenuPool to use wrap text in two lines you can find that here https://github.com/CoderXpert/AnimatedMenuPool
+This demo code have use AnimatedMenuPool. you can find that here https://github.com/CoderXpert/AnimatedMenuPool
 
 This component use DSMultilineLabelNode to use wrap text in two lines you can find that here https://github.com/downrightsimple/DSMultilineLabelNode 
 
