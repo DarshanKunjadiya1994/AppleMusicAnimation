@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D8584311E3224E200C3633F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8584301E3224E200C3633F /* main.m */; };
+		7D8584341E3224E200C3633F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8584331E3224E200C3633F /* AppDelegate.m */; };
+		7D8584371E3224E200C3633F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8584361E3224E200C3633F /* ViewController.m */; };
+		7D85843A1E3224E200C3633F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8584381E3224E200C3633F /* Main.storyboard */; };
+		7D85843C1E3224E200C3633F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D85843B1E3224E200C3633F /* Assets.xcassets */; };
+		7D85843F1E3224E200C3633F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D85843D1E3224E200C3633F /* LaunchScreen.storyboard */; };
+		7D85844D1E32255E00C3633F /* AnimatedMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8584481E32255E00C3633F /* AnimatedMenuScene.m */; };
+		7D85844E1E32255E00C3633F /* DSMultilineLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85844A1E32255E00C3633F /* DSMultilineLabelNode.m */; };
+		7D85844F1E32255E00C3633F /* MenuItemNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D85844C1E32255E00C3633F /* MenuItemNode.m */; };
+		7D8584751E322B1300C3633F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7D8584741E322B1300C3633F /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D85842C1E3224E200C3633F /* AppleMusicAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8584301E3224E200C3633F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D8584321E3224E200C3633F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D8584331E3224E200C3633F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D8584351E3224E200C3633F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D8584361E3224E200C3633F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D8584391E3224E200C3633F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D85843B1E3224E200C3633F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D85843E1E3224E200C3633F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D8584401E3224E200C3633F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8584471E32255E00C3633F /* AnimatedMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedMenuScene.h; sourceTree = "<group>"; };
+		7D8584481E32255E00C3633F /* AnimatedMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedMenuScene.m; sourceTree = "<group>"; };
+		7D8584491E32255E00C3633F /* DSMultilineLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMultilineLabelNode.h; sourceTree = "<group>"; };
+		7D85844A1E32255E00C3633F /* DSMultilineLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMultilineLabelNode.m; sourceTree = "<group>"; };
+		7D85844B1E32255E00C3633F /* MenuItemNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemNode.h; sourceTree = "<group>"; };
+		7D85844C1E32255E00C3633F /* MenuItemNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemNode.m; sourceTree = "<group>"; };
+		7D8584741E322B1300C3633F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D8584291E3224E200C3633F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8584231E3224E200C3633F = {
+			isa = PBXGroup;
+			children = (
+				7D8584741E322B1300C3633F /* README.md */,
+				7D85842E1E3224E200C3633F /* AppleMusicAnimation */,
+				7D85842D1E3224E200C3633F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D85842D1E3224E200C3633F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D85842C1E3224E200C3633F /* AppleMusicAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D85842E1E3224E200C3633F /* AppleMusicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7D8584461E32254F00C3633F /* AnimatedMenu */,
+				7D8584321E3224E200C3633F /* AppDelegate.h */,
+				7D8584331E3224E200C3633F /* AppDelegate.m */,
+				7D8584351E3224E200C3633F /* ViewController.h */,
+				7D8584361E3224E200C3633F /* ViewController.m */,
+				7D8584381E3224E200C3633F /* Main.storyboard */,
+				7D85842F1E3224E200C3633F /* Supporting Files */,
+			);
+			path = AppleMusicAnimation;
+			sourceTree = "<group>";
+		};
+		7D85842F1E3224E200C3633F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D85843B1E3224E200C3633F /* Assets.xcassets */,
+				7D85843D1E3224E200C3633F /* LaunchScreen.storyboard */,
+				7D8584401E3224E200C3633F /* Info.plist */,
+				7D8584301E3224E200C3633F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D8584461E32254F00C3633F /* AnimatedMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7D8584471E32255E00C3633F /* AnimatedMenuScene.h */,
+				7D8584481E32255E00C3633F /* AnimatedMenuScene.m */,
+				7D8584491E32255E00C3633F /* DSMultilineLabelNode.h */,
+				7D85844A1E32255E00C3633F /* DSMultilineLabelNode.m */,
+				7D85844B1E32255E00C3633F /* MenuItemNode.h */,
+				7D85844C1E32255E00C3633F /* MenuItemNode.m */,
+			);
+			name = AnimatedMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D85842B1E3224E200C3633F /* AppleMusicAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8584431E3224E200C3633F /* Build configuration list for PBXNativeTarget "AppleMusicAnimation" */;
+			buildPhases = (
+				7D8584281E3224E200C3633F /* Sources */,
+				7D8584291E3224E200C3633F /* Frameworks */,
+				7D85842A1E3224E200C3633F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMusicAnimation;
+			productName = AppleMusicAnimation;
+			productReference = 7D85842C1E3224E200C3633F /* AppleMusicAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8584241E3224E200C3633F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "rlogical-dev-21";
+				TargetAttributes = {
+					7D85842B1E3224E200C3633F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DTRF7QJH3W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D8584271E3224E200C3633F /* Build configuration list for PBXProject "AppleMusicAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D8584231E3224E200C3633F;
+			productRefGroup = 7D85842D1E3224E200C3633F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D85842B1E3224E200C3633F /* AppleMusicAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D85842A1E3224E200C3633F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D85843F1E3224E200C3633F /* LaunchScreen.storyboard in Resources */,
+				7D85843C1E3224E200C3633F /* Assets.xcassets in Resources */,
+				7D85843A1E3224E200C3633F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8584281E3224E200C3633F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D85844D1E32255E00C3633F /* AnimatedMenuScene.m in Sources */,
+				7D85844E1E32255E00C3633F /* DSMultilineLabelNode.m in Sources */,
+				7D8584371E3224E200C3633F /* ViewController.m in Sources */,
+				7D8584751E322B1300C3633F /* README.md in Sources */,
+				7D8584341E3224E200C3633F /* AppDelegate.m in Sources */,
+				7D8584311E3224E200C3633F /* main.m in Sources */,
+				7D85844F1E32255E00C3633F /* MenuItemNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D8584381E3224E200C3633F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D8584391E3224E200C3633F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D85843D1E3224E200C3633F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D85843E1E3224E200C3633F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D8584411E3224E200C3633F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D8584421E3224E200C3633F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D8584441E3224E200C3633F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTRF7QJH3W;
+				INFOPLIST_FILE = AppleMusicAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlogical.AppleMusicAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7D8584451E3224E200C3633F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DTRF7QJH3W;
+				INFOPLIST_FILE = AppleMusicAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rlogical.AppleMusicAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8584271E3224E200C3633F /* Build configuration list for PBXProject "AppleMusicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8584411E3224E200C3633F /* Debug */,
+				7D8584421E3224E200C3633F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8584431E3224E200C3633F /* Build configuration list for PBXNativeTarget "AppleMusicAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8584441E3224E200C3633F /* Debug */,
+				7D8584451E3224E200C3633F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D8584241E3224E200C3633F /* Project object */;
+}
