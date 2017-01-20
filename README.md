@@ -34,6 +34,6 @@ This component use DSMultilineLabelNode to use wrap text in two lines you can fi
 
 **Example**
 
-[ScreenShot](https://s24.postimg.org/stoyq6cvp/IMG_0798.png)
+[See Example](http://im.ezgif.com/tmp/ezgif.com-36fee97cc0.gif)
 
-[![IMAGE ALT TEXT HERE](https://s24.postimg.org/stoyq6cvp/IMG_0798.png)]
+[![IMAGE ALT TEXT HERE](http://im.ezgif.com/tmp/ezgif.com-36fee97cc0.gif)]
