@@ -1,7 +1,5 @@
 # AppleMusicAnimation
-AppleMusicAnimation (Similar like apple music genre section screen)
-is a component which you can use to create a pool of subviews which can animated and will use physicis to animate on siwpe.
-Its very easy to use you can add SKShpaeNode as menu item.
+AppleMusicAnimation is similar to Apple Music’s genre selection screen. This project provides a component which you can use to create a pool of subviews. Each of these subviews are animated with physics when the user swipe across the screen. You can easily start using this project by adding SKShapeNode as menu item.
 
 **Usage**
 
@@ -16,7 +14,7 @@ Its very easy to use you can add SKShpaeNode as menu item.
 5. For full demo code download code :).
 
 ```objectivec
-_skView = [[SKView alloc] initWithFrame:self.view.bounds];
+_View = [[SKView alloc] initWithFrame:self.view.bounds];
 [self.view insertSubview:_skView atIndex:0];
 _animatedMenuScene = [[AnimatedMenuScene alloc] initWithSize:self.skView.bounds.size];  
 _animatedMenuScene.animatedSceneDelegate = self;// If you want to get notify when an item get selected       
@@ -27,9 +25,9 @@ _animatedMenuScene.backgroundColor = [UIColor blueColor];
         
 **Credit**
 
-This demo code have use AnimatedMenuPool. you can find that here https://github.com/CoderXpert/AnimatedMenuPool
+This project has reference code from AnimatedMenuPool. You can find that here https://github.com/CoderXpert/AnimatedMenuPool
 
-This component use DSMultilineLabelNode to use wrap text in two lines you can find that here https://github.com/downrightsimple/DSMultilineLabelNode 
+DSMultilineLabelNode is used to wrap text in two lines. You can find that here https://github.com/downrightsimple/DSMultilineLabelNode 
 
 
 **Example**
