@@ -33,3 +33,7 @@ DSMultilineLabelNode is used to wrap text in two lines. You can find that here h
 **Example**
 
 ![See Example](https://raw.githubusercontent.com/DarshanKunjadiya1994/AppleMusicAnimation/master/AppleMusicAnimation/AppleMusicAnimation.gif)
+
+ License
+
+`AppleMusicAnimation` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
